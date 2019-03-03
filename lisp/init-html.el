@@ -1,0 +1,3 @@
+					;html
+
+(provide 'init-html)
