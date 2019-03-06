@@ -3,6 +3,12 @@
 ;; Produce backtraces when errors occur
 (setq debug-on-error t)
 
+;; System-type definition
+(defun system-is-linux()
+    (string-equal system-type "gnu/linux"))
+(defun system-is-windows()
+    (string-equal system-type "windows-nt"))
+
 ;;----------------------------------------------------------------------------
 ;; Adjust garbage collection thresholds during startup, and thereafter
 ;;----------------------------------------------------------------------------
