@@ -14,3 +14,5 @@
 (require 'init-theme)
 (require 'init-ace-jump)
 (require 'init-evil)
+
+(require 'init-dired)
