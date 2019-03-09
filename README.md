@@ -28,5 +28,5 @@ There are few common configurations files:
 * init-theme.el - appearence settings.
 * init-keybindings - keybinding settings.
 
-You can add new configurations simply running `M-x add-config [RET] [Config name] [RET]. It creates new configuration file, adds reference to init.el and opens it for editing.
-You can also open existing config using `M-x open-config [RET] [Config name] [RET].
+You can add new configurations simply running `M-x add-config [RET] [Config name] [RET]`. It creates new configuration file, adds reference to init.el and opens it for editing.
+You can also open existing config using `M-x open-config [RET] [Config name] [RET]`.
