@@ -26,7 +26,7 @@
  '(custom-enabled-themes (quote (misterioso)))
  '(package-selected-packages
    (quote
-    (evil ace-jump-mode yasnippet auto-complete yasnippet-snippets))))
+    (md4rd evil ace-jump-mode yasnippet auto-complete yasnippet-snippets))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
