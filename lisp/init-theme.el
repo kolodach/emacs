@@ -6,6 +6,9 @@
  '(custom-enabled-themes (quote (misterioso)))
  '(package-selected-packages (quote (yasnippet auto-complete yasnippet-snippets))))
 
+;; Windows specific customizations
+(if (system-is-windows)(setq visible-bell 1))
+
 (custom-set-faces
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
