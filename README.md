@@ -12,16 +12,16 @@ Clone this repo to your .emacs.d directory and run `M-x eval-buffer [RET]`
 Each configurations has it's own file with appropriate name. It has the following sctructure:
 ```
 .emacs.d/
-|-init.el
-|-lisp/
-| |-init-bootstrap.el
-| |-init-theme.el
-| |-init-keybindings.el
-| |-init-evil.el
-| |- ...
-|-snippets
-| |-html-mode
-| |-js-mode
+|—init.el
+|—lisp/
+| |—init-bootstrap.el
+| |—init-theme.el
+| |—init-keybindings.el
+| |—init-evil.el
+| |— ...
+|—snippets
+| |—html-mode
+| |—js-mode
 ```
 There are few common configurations files: 
 * init-bootstrap.el - put you common configuration here.
