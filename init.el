@@ -27,7 +27,7 @@
  '(custom-enabled-themes (quote (misterioso)))
  '(package-selected-packages
    (quote
-    (evil-magit magit dired-sidebar md4rd evil ace-jump-mode yasnippet auto-complete yasnippet-snippets))))
+    (neotree evil-magit magit dired-sidebar md4rd evil ace-jump-mode yasnippet auto-complete yasnippet-snippets))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -37,3 +37,5 @@
 
 
 (require 'init-magit)
+
+(require 'init-neotree)
