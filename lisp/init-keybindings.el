@@ -8,5 +8,6 @@
 (global-set-key [(shift control left)] 'enlarge-window-horizontally)
 (global-set-key [(shift control up)] 'enlarge-window)
 (global-set-key [(shift control down)] 'shrink-window)
+(global-set-key (kbd "C-x g") 'magit-status)
 
 (provide 'init-keybindings)
